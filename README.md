@@ -40,7 +40,7 @@ Ikuti langkah-langkah di bawah ini untuk menginstal Aplikasi Kelulusan Siswa:
     Buat database baru di MySQL/MariaDB Anda. Anda bisa menamakannya `db_kelulusan` atau sesuai keinginan Anda.
 
 4.  **Import Struktur Database:**
-    Import file SQL yang disediakan (misalnya, `database.sql` jika ada) ke database yang baru Anda buat. Jika tidak ada file SQL yang disediakan, Anda mungkin perlu membuat tabel secara manual atau mengikuti instruksi di dokumentasi aplikasi (jika ada).
+    Import file SQL yang disediakan `kelulusan_siswa.sql` ke database yang baru Anda buat.
 
 5.  **Konfigurasi Database:**
     Buka file **`config.php`** yang terletak di root direktori aplikasi. Sesuaikan detail koneksi database dengan konfigurasi Anda:
